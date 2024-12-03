@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .catering{
     display: flex;
 justify-content: center;
@@ -42,3 +43,111 @@ img{
     
     width: 400px;
 }
+=======
+
+body {
+    color: #333;
+  }
+ 
+  header {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+ 
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+ 
+  h1 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+ 
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+ 
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+ 
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+ 
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+ 
+  .hero h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #333;
+    font-size: 32px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+.para{
+    font-weight: 500;
+    position: relative;
+    left: 40px;
+    top: 60px;
+}
+
+.name{
+    padding: 15px;
+    margin: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.people{
+    padding: 15px;
+    margin: 40px;
+    position: relative;
+    top: 50px;
+}
+
+.date{
+    padding: 15px;
+    border-style: none;
+    margin: 40px;
+    position: relative;
+    right: 10px;
+}
+
+.messagespecial{
+    padding: 15px;
+    padding-right: 100px;
+    margin: 40px;
+    position: relative;
+    top: -80px;
+
+}
+
+.butn{
+    padding: 15px;
+    border-style: none;
+    margin: 40px;
+    position: relative;
+    top: -120px;
+}
+
+
+>>>>>>> ec4057ae119dc642cf52a8cdd6fc087d7d8abc1e
